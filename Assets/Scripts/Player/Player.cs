@@ -3,6 +3,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(CollisionHandler))]
 [RequireComponent(typeof(PlayerMover))]
+[RequireComponent(typeof(Health))]
 public class Player : Ship
 {
     [SerializeField] private float _shootSpeed;
